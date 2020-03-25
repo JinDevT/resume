@@ -60,7 +60,7 @@
 }
 /* //side */
 
-
+/* main */
 .wrap .inner .main {
     width: 85%;
 }
@@ -104,10 +104,13 @@
 /* container */
 .container {
     width: calc(100% - 15%);
-    margin: 15px auto 0;
+    margin: 30px auto 0;
 }
 .container .contents {
 
+}
+.container .contents .section  {
+    margin-bottom: 30px;
 }
 .container .contents .section .section_info .section_link {
    
@@ -143,10 +146,9 @@
     border: 0px solid rgba(97, 208, 212, 1) ;
 }
 
-.container .contents .section .section_info .section_text .txt_tit {
+.container .contents .section .section_info.section_work_info .section_text .txt_tit {
     margin-bottom: 3px;
     font-size: 18px;
-    font-weight: bold;
     color: #4dabf7;
 }
 .container .contents .section .section_info .section_text .txt_sub {
@@ -156,7 +158,18 @@
 }
 
 .container .contents .section .section_info.section_work_info {
-    display: block;
+    /* display: block; */
+}
+
+.container .contents .section .section_info .section_float {
+    float: left;
+    width: 50%;
+    border-right: 2px dashed #000;
+    margin-right: 50px;
+}
+.container .contents .section .section_info .section_float:last-child {
+    border-right: none;
+    margin-right: 0;
 }
 .container .contents .section .section_info .section_work {
 
@@ -172,6 +185,9 @@
 }
 .container .contents .section .section_info .section_work li i {
     font-size: 30px;
+}
+.container .contents .section .section_info.section_skill_info {
+    justify-content: center;
 }
 .container .contents .section .section_info .section_work li .work_contents.work_skill {
     margin-left: 50px;
@@ -205,3 +221,5 @@
     line-height: 1.4;
 }
 /* // footer */
+
+/* // main */

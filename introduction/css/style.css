@@ -195,6 +195,7 @@
 }
 /* //container */
 
+/* footer */
 .footer {
     display: flex;
     justify-content: center;
@@ -206,3 +207,4 @@
     font-size: 18px;
     line-height: 1.4;
 }
+/* // footer */

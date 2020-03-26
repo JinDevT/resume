@@ -98,6 +98,7 @@
 }
 .header .nav ul li a:hover {
     color: #4dabf7;
+    font-weight: bold;
 }
 /* //header */
 

@@ -1,8 +1,11 @@
 
 /* side */
 .side {
-    position: relative;
-    width: 15%;
+    position: fixed;
+    z-index: 100;
+    box-sizing: border-box;
+    width: 20%;
+    height: 100vh;
     padding: 30px 40px;
     border-right: 1px solid #4dabf7;
     background: #4dabf7;
@@ -62,7 +65,10 @@
 
 /* main */
 .wrap .inner .main {
-    width: 85%;
+    position: relative;
+    width: 80%;
+    left: 20%;
+    box-sizing: border-box;
 }
 
 /* header */
@@ -104,7 +110,7 @@
 
 /* container */
 .container {
-    width: calc(100% - 15%);
+    width: calc(100% - 20%);
     margin: 30px auto 0;
 }
 .container .contents {

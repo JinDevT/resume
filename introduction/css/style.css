@@ -126,10 +126,11 @@
 
 }
 .container .contents .section .section_info .section_link ul li {
+    width: 120px;
     margin-right: 20px;
     position: relative;
 }
-.container .contents .section .section_info .section_link ul li a {
+.container .contents .section .section_info .section_link ul li .modal_btn {
     width: 100%;
     height: 120px;
     display: flex;
@@ -137,22 +138,25 @@
     align-items: center;
     padding: 0 15px;
     box-sizing: border-box;
-    color: #fff;
     border-radius: 50%;
 }
-.container .contents .section .section_info .section_link ul li a:hover {
+.container .contents .section .section_info .section_link ul li .modal_btn:hover {
     opacity: 0.7;
+    cursor: pointer;
    
 }
-.container .contents .section .section_info .section_link ul li a.my_resume {
+.container .contents .section .section_info .section_link ul li .modal_btn#my_resume {
     background-color: rgba(232, 53, 86, 1);
     border: 0px solid rgba(232, 53, 86, 1);
 }
-.container .contents .section .section_info .section_link ul li a.my_project {
+.container .contents .section .section_info .section_link ul li button#my_project {
     background-color: rgba(97, 208, 212, 1);
     border: 0px solid rgba(97, 208, 212, 1) ;
 }
-
+.container .contents .section .section_info .section_link ul li .modal_btn span {
+    color: #fff;
+    font-size: 15px;
+}
 .container .contents .section .section_info.section_work_info .section_text .txt_tit {
     margin-bottom: 3px;
     font-size: 18px;

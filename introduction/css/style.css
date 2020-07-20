@@ -1,14 +1,16 @@
 
+
 /* side */
 .side {
     position: fixed;
     z-index: 100;
     box-sizing: border-box;
-    width: 20%;
+    width: 250px;
     height: 100vh;
     padding: 30px 40px;
     border-right: 1px solid #4dabf7;
     background: #4dabf7;
+    
 }
 .side .intro {
    
@@ -66,8 +68,8 @@
 /* main */
 .wrap .inner .main {
     position: relative;
-    width: 80%;
-    left: 20%;
+    width: 100%;
+    padding-left: 250px;
     box-sizing: border-box;
 }
 
@@ -110,8 +112,7 @@
 
 /* container */
 .container {
-    width: calc(100% - 20%);
-    margin: 30px auto 0;
+    padding: 60px 90px 15px;
 }
 .container .contents {
 
@@ -159,7 +160,7 @@
 }
 .container .contents .section .section_info.section_work_info .section_text .txt_tit {
     margin-bottom: 3px;
-    font-size: 18px;
+    font-size: 20px;
     color: #4dabf7;
 }
 .container .contents .section .section_info .section_text .txt_sub {
@@ -167,7 +168,24 @@
     font-size: 20px;
     font-weight: bold;
 }
+.container .contents .section .section_info .section_text .txt_desc.self_intro {
+    font-size: 20px;
+}
+.container .contents .section .section_info .section_text .txt_desc.work_desc {
+    position: relative;
+    padding: 10px 0 10px 20px;
+}
 
+.container .contents .section .section_info .section_text .txt_desc.self_intro strong {
+    font-weight: 700;
+}
+strong.sub_desc:before {
+    position: absolute;
+    left: 0;
+    display: block;
+    content: "•";
+    color: #4dabf7;
+}
 .container .contents .section .section_info.section_work_info {
     /* display: block; */
 }
@@ -187,10 +205,11 @@
 }
 .container .contents .section .section_info .section_work li {
     display: flex;
+    padding: 12px 15px 12px 0;
 }
-.container .contents .section .section_info .section_work .work_list ~ li {
+/* .container .contents .section .section_info .section_work .work_list ~ li {
     padding: 20px 0;
-}
+} */
 .container .contents .section .section_info .section_work li .work_contents {
     display: flex;
 }
@@ -198,7 +217,7 @@
     font-size: 30px;
 }
 .container .contents .section .section_info.section_skill_info {
-    justify-content: center;
+    display: block;
 }
 .container .contents .section .section_info .section_work li .work_contents.work_skill {
     margin-left: 50px;
@@ -215,7 +234,7 @@
 }
 
 .container .contents .section .section_info .section_work .work_list.skill_list {
-    justify-content: center;
+    justify-content: flex-start;
 }
 /* //container */
 

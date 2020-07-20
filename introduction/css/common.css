@@ -46,7 +46,13 @@
     letter-spacing: 1.3px;
 }
 .container .contents .section .section_info .section_text .txt_desc {
-    font-size: 16px;
+    font-size: 17px;
+}
+
+.container .contents .section .section_info .section_text .txt_desc .sub_desc {
+    padding-bottom: 3px;
+    font-size: 21px;
+    font-weight: bold;
 }
 
 /* modal */

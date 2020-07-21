@@ -220,6 +220,10 @@
 .container .contents .section .section_info .section_text .details_box ul {
     margin-left: 31px;
 }
+
+.container .contents .section .section_info .section_text .details_box.skills_box ul {
+    margin-left: 0;
+}
 .container .contents .section .section_info .section_text .details_box ul li {
     position: relative;
     padding: 4px 0;
@@ -234,6 +238,14 @@
 }
 
 .details_box ul li strong::before{
+    position: absolute;
+    left: -15px;
+    display: block;
+    content: "•";
+    color: #4dabf7;
+}
+
+.skills_box ul li::before {
     position: absolute;
     left: -15px;
     display: block;

@@ -5,7 +5,7 @@
     position: fixed;
     z-index: 100;
     box-sizing: border-box;
-    width: 250px;
+    width: 300px;
     height: 100vh;
     padding: 30px 40px;
     border-right: 1px solid #4dabf7;
@@ -52,7 +52,7 @@
 
 }
 .side .intro .side_info .contact_box .contact_list li {
-    margin: 23px;
+    margin: 23px 0;
     text-align: center;
 }
 .side .intro .side_info .contact_box .contact_list li i {
@@ -69,7 +69,7 @@
 .wrap .inner .main {
     position: relative;
     width: 100%;
-    padding-left: 250px;
+    padding-left: 300px;
     box-sizing: border-box;
 }
 
@@ -89,7 +89,7 @@
     font-weight: bold;
 }
 .header .intro .sub_title {
-    font-size: 17px;
+    font-size: 20px;
     text-align: center;
 }
 .header .nav {
@@ -160,31 +160,89 @@
 }
 .container .contents .section .section_info.section_work_info .section_text .txt_tit {
     margin-bottom: 3px;
-    font-size: 20px;
+    font-size: 23px;
     color: #4dabf7;
 }
 .container .contents .section .section_info .section_text .txt_sub {
-    margin-bottom: 3px;
-    font-size: 20px;
+    padding: 5px 0;
+    font-size: 22px;
     font-weight: bold;
 }
+
+.container .contents .section .section_info .section_text .txt_sub.work_name {
+    font-size: 30px;
+}
 .container .contents .section .section_info .section_text .txt_desc.self_intro {
-    font-size: 20px;
+    font-size: 25px;
 }
 .container .contents .section .section_info .section_text .txt_desc.work_desc {
     position: relative;
     padding: 10px 0 10px 20px;
 }
 
+.container .contents .section .section_info .section_text .txt_desc.work_desc .date {
+    font-size: 17px;
+    color: #4dabf7;
+}
+.container .contents .section .section_info .section_text .txt_desc.work_desc .work_info {
+    font-size: 19px;
+}
+.container .contents .section .section_info .section_text .txt_desc.work_desc .stack {
+    padding: 4px 0;
+}
+
 .container .contents .section .section_info .section_text .txt_desc.self_intro strong {
     font-weight: 700;
+    font-size: 25px;
 }
-strong.sub_desc:before {
+.container .contents .section .section_info .section_text strong.sub_desc:before {
     position: absolute;
     left: 0;
     display: block;
     content: "•";
     color: #4dabf7;
+}
+
+.container .contents .section .section_info .section_text .details_box {
+    padding: 3px 0 3px 4px;
+}
+ 
+.container .contents .section .section_info .section_text .details_box summary {
+    padding: 5px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container .contents .section .section_info .section_text .details_box summary:focus {
+    cursor: pointer;
+}
+
+.container .contents .section .section_info .section_text .details_box ul {
+    margin-left: 31px;
+}
+.container .contents .section .section_info .section_text .details_box ul li {
+    position: relative;
+    padding: 4px 0;
+    font-size: 19px;
+    line-height: 1.4;
+}
+
+.details_box ul li strong {
+    padding-left: 5px;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.details_box ul li strong::before{
+    position: absolute;
+    left: -15px;
+    display: block;
+    content: "•";
+    color: #4dabf7;
+}
+
+.details_box ul li p {
+    padding: 5px 0;
 }
 .container .contents .section .section_info.section_work_info {
     /* display: block; */
@@ -204,7 +262,6 @@ strong.sub_desc:before {
 
 }
 .container .contents .section .section_info .section_work li {
-    display: flex;
     padding: 12px 15px 12px 0;
 }
 /* .container .contents .section .section_info .section_work .work_list ~ li {
@@ -215,9 +272,6 @@ strong.sub_desc:before {
 }
 .container .contents .section .section_info .section_work li i {
     font-size: 30px;
-}
-.container .contents .section .section_info.section_skill_info {
-    display: block;
 }
 .container .contents .section .section_info .section_work li .work_contents.work_skill {
     margin-left: 50px;

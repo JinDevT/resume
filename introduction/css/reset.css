@@ -47,3 +47,11 @@ a {
 button {
 	outline: none;
 }
+
+iframe {
+	border: 1px solid #4D4D4D;
+}
+
+details:focus {
+	outline: none;
+}

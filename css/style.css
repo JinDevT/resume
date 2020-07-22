@@ -165,7 +165,7 @@
 }
 .container .contents .section .section_info .section_text .txt_sub {
     padding: 5px 0;
-    font-size: 22px;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -270,11 +270,16 @@
     border-right: none;
     margin-right: 0;
 }
-.container .contents .section .section_info .section_work {
-
+.container .contents .section .section_info .section_work .works_ul {
+    margin-left: 5px;
 }
 .container .contents .section .section_info .section_work li {
     padding: 12px 0;
+}
+
+.container .contents .section .section_info .section_work .works_ul li strong {
+    font-size: 23px;
+    font-weight: 700;
 }
 /* .container .contents .section .section_info .section_work .work_list ~ li {
     padding: 20px 0;

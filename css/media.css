@@ -1,4 +1,11 @@
 @media screen and (max-width: 768px) { 
+  body {
+    overflow-x: hidden;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
   /* side */
   .side {  
     width: 100%;
@@ -39,6 +46,7 @@
   }
   /* // side */
   
+  /* main */
   .wrap .inner .main {
     position: relative;
     top: 80px;
@@ -88,6 +96,12 @@
     margin-top: 2px;
     font-size: 20px;
   }
+
+  iframe {
+    height: 50%;
+  }
+
+  /* // main */
   .footer {
     padding: 22px;
   }

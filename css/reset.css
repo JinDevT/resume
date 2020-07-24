@@ -17,6 +17,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	font-family: 'Lato','Noto Sans KR',sans-serif;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -50,6 +51,7 @@ button {
 
 iframe {
 	border: 1px solid #4D4D4D;
+	height: 500px;
 }
 
 details:focus {

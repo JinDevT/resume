@@ -22,7 +22,7 @@
 .container .contents .section .section_title h2 {
     padding: 5px;
     font-size: 30px;
-    font-weight: bold;
+    font-weight: 700;
     color: #4dabf7;
 }
 .container .contents .section .section_info {
@@ -42,7 +42,7 @@
 }
 .container .contents .section .section_info .section_text .txt_tit {
     font-size: 45px;
-    font-weight: bold;
+    font-weight: 700;
     letter-spacing: 1.3px;
 }
 .container .contents .section .section_info .section_text .txt_desc {
@@ -52,7 +52,7 @@
 .container .contents .section .section_info .section_text .txt_desc .sub_desc {
     padding-bottom: 3px;
     font-size: 25px;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 /* modal */
@@ -80,7 +80,7 @@
 .modal_title {
     display: inline-block;
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 700;
 }
 .close_wrapper {
     position: absolute;

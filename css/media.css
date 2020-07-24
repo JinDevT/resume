@@ -121,7 +121,9 @@
   .side_info .contact_box .contact_list li i {
     font-size: 30px;
   }
-
+  .side_info .contact_box .contact_list li a:hover {
+    color: #4dabf7;
+  }
   .side .intro .side_info .contact_box .contact_list li a {
     font-size: 14px;
   }

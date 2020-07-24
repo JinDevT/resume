@@ -173,6 +173,10 @@
     font-weight: 700;
 }
 
+.container .contents .section .section_info .section_text .txt_sub p {
+    padding: 3px 0;
+}
+
 .container .contents .section .section_info .section_text .txt_sub.work_name {
     font-size: 30px;
 }
@@ -189,6 +193,7 @@
     color: #4dabf7;
 }
 .container .contents .section .section_info .section_text .txt_desc.work_desc .work_info {
+    padding: 3px 0;
     font-size: 19px;
 }
 .container .contents .section .section_info .section_text .txt_desc.work_desc .stack {
@@ -319,9 +324,6 @@
 .footer span {
     font-size: 18px;
     line-height: 1.4;
-}
-.footer .side_info {
-    display: none;
 }
 /* // footer */
 

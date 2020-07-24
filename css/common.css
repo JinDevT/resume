@@ -29,7 +29,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 30px 0;
+    margin: 40px 0;
 }
 .clearfix {
     display: block;
@@ -45,8 +45,13 @@
     font-weight: 700;
     letter-spacing: 1.3px;
 }
+
 .container .contents .section .section_info .section_text .txt_desc {
     font-size: 19px;
+}
+
+.container .contents .section .section_info .section_text .txt_desc p {
+    padding: 3px 0;
 }
 
 .container .contents .section .section_info .section_text .txt_desc .sub_desc {

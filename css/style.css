@@ -260,12 +260,6 @@
     /* display: block; */
 }
 
-.container .contents .section .section_info .section_float {
-    float: left;
-    width: 50%;
-    border-right: 2px dashed #000;
-    margin-right: 50px;
-}
 .container .contents .section .section_info .section_float:last-child {
     border-right: none;
     margin-right: 0;

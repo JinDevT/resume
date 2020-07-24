@@ -131,6 +131,10 @@
     font-size: 16px;
   }
 
+  .container .contents .section .section_info .section_work .works_ul li strong {
+    font-size: 20px;
+  }
+
   .container .contents .section .section_info .section_text .txt_desc.work_desc .work_info {
     font-size: 16px;
   }

@@ -76,6 +76,10 @@
   .container .contents .section .section_info .section_text strong.sub_desc:before {
     left: -15px;
   }
+  .container .contents .section .section_info .section_work li i {
+    margin-top: 2px;
+    font-size: 20px;
+  }
 }
 
 

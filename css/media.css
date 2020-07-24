@@ -74,12 +74,20 @@
     font-size: 27px;
   }
 
+  .container .contents .section .section_info .section_text .txt_desc {
+    font-size: 16px;
+  }
+
   .container .contents .section .section_info .section_text .txt_sub.work_name {
       font-size: 27px;
   }
 
   .container .contents .section .section_info .section_text .txt_desc.self_intro {
-    font-size: 20px;
+    font-size: 18px;
+  }
+
+  .container .contents .section .section_info .section_text .txt_desc .sub_desc {
+    font-size: 23px;
   }
 
   .container .contents .section .section_info .section_text .txt_desc.self_intro strong {
@@ -92,11 +100,21 @@
 
   .container .contents .section .section_info .section_text .txt_desc.work_desc {
     padding: 10px 0 10px 5px;
+    font-size: 16px;
+  }
+
+  .container .contents .section .section_info .section_text .txt_desc.work_desc .work_info {
+    font-size: 16px;
   }
 
   .container .contents .section .section_info .section_text strong.sub_desc:before {
     left: -15px;
   }
+
+  .container .contents .section .section_info .section_text .details_box ul li {
+    font-size: 16px;
+  }
+  
   .container .contents .section .section_info .section_work li i {
     margin-top: 2px;
     font-size: 20px;

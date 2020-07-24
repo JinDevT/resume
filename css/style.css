@@ -51,16 +51,16 @@
 .side .intro .side_info .contact_box .contact_list {
 
 }
-.side .intro .side_info .contact_box .contact_list li {
+.side_info .contact_box .contact_list li {
     margin: 23px 0;
     text-align: center;
 }
-.side .intro .side_info .contact_box .contact_list li i {
+.side_info .contact_box .contact_list li i {
     display: block;
     padding: 15px;
     font-size: 40px;
 }
-.side .intro .side_info .contact_box .contact_list li a:hover {
+.side_info .contact_box .contact_list li a:hover {
     color:#fff;
 }
 /* //side */
@@ -314,6 +314,9 @@
 .footer span {
     font-size: 18px;
     line-height: 1.4;
+}
+.footer .side_info {
+    display: none;
 }
 /* // footer */
 

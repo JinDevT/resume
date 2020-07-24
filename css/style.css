@@ -120,6 +120,10 @@
 .container .contents .section  {
     margin-bottom: 30px;
 }
+
+.container .contents .section.contact_section  {
+    display: none;
+}
 .container .contents .section .section_info .section_link {
    
 }

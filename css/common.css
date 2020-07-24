@@ -2,7 +2,6 @@
 .wrap {
     position: relative;
     height: 100%;
-    /* min-width: 1280px; */
     color: #4D4D4D;
 }
 .wrap .ul_flex {

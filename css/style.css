@@ -188,6 +188,10 @@
     padding: 10px 0 10px 20px;
 }
 
+.container .contents .section .section_info .section_text .txt_desc a:hover {
+    color: #4dabf7;
+}
+
 .container .contents .section .section_info .section_text .txt_desc.work_desc .date {
     font-size: 17px;
     color: #4dabf7;
@@ -215,14 +219,15 @@
 .container .contents .section .section_info .section_text .details_box {
     padding: 3px 0 3px 4px;
 }
- 
+
 .container .contents .section .section_info .section_text .details_box summary {
     padding: 5px 0;
     font-size: 20px;
     font-weight: 700;
 }
 
-.container .contents .section .section_info .section_text .details_box summary:focus {
+.container .contents .section .section_info .section_text .details_box summary:hover {
+    color: #4dabf7;
     cursor: pointer;
 }
 

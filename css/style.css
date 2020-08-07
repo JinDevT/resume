@@ -79,16 +79,11 @@ body:before {
     background: #4dabf7;
 }
 
-.wrap .inner {
-    padding-top: 15px;
-}
 .wrap .inner .main {
     position: relative;
     width: 100%;
     /* padding-left: 300px; */
     box-sizing: border-box;
-    max-width: 50rem;
-    margin: 30px auto 0;
 }
 
 /* header */
@@ -130,7 +125,7 @@ body:before {
 
 /* container */
 .container {
-    /* padding: 60px 250px 15px; */
+    padding: 60px 250px 15px;
 }
 .container .contents {
 

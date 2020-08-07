@@ -10,6 +10,7 @@
 .wrap .inner {
     display: flex;
     height: 100%;
+    padding-top: 15px;
 }
 .wrap .inner a {
     color: #4D4D4D;
